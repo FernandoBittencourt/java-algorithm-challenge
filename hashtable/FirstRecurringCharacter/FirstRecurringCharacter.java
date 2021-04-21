@@ -28,7 +28,7 @@ class Main {
         }
     }
     
-    public static Integer getFirstRepeated(int[] array){
+    public static Integer getFirstRepeated(int[] array){ //O(n)
         Set<Integer> visitedNumbers = new HashSet<>();
         for(int i=0; i<array.length; i++) {
             if(visitedNumbers.contains(array[i])){
