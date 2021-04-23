@@ -1,0 +1,2 @@
+Implement the method that calculates the fibonacci of a number.
+Implement both recursively and iteratively.
